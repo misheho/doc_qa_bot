@@ -1,0 +1,4 @@
+This is a sample document about artificial intelligence.
+AI frameworks like LangChain enable developers to build applications
+with large language models quickly. Document Q&A chatbots are one
+common use case for retrieval-augmented generation (RAG) systems.

@@ -1,0 +1,53 @@
+# ──────────────────────────────────────────────────────────────────────
+# ENVIRONMENT & SECRETS
+# ──────────────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+
+# ──────────────────────────────────────────────────────────────────────
+# VIRTUAL ENVIRONMENTS
+# ──────────────────────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ──────────────────────────────────────────────────────────────────────
+# VECTOR DATABASES & GENERATED DATA
+# ──────────────────────────────────────────────────────────────────────
+chroma_db/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ──────────────────────────────────────────────────────────────────────
+# DOCUMENTS (OPTIONAL - Comment out if you want to share publicly)
+# ──────────────────────────────────────────────────────────────────────
+# Uncomment these if documents contain sensitive/private info:
+# documents/*.pdf
+# documents/*.txt
+# documents/*.md
+
+# ⚠️ IMPORTANT: Keep sample/test documents if they're meant to be public
+# Add this instead to allow specific test files:
+# !documents/sample.txt
+# !documents/README.md
+
+# ──────────────────────────────────────────────────────────────────────
+# IDE & OS FILES
+# ──────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────────────────────────────────
+# LOGS & TEMP FILES
+# ──────────────────────────────────────────────────────────────────────
+*.log
+tmp/
+temp/
